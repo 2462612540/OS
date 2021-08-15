@@ -20,11 +20,11 @@
 **主要是学习了了解的操作的系统的相关知识。主要是linux系统相关**
 ### 操作系统的相关的书籍
 
-- 操作系统相关的书籍[百度云下载链接](链接：https://pan.baidu.com/s/13f_Nm_3azjSAZTxHh0Nw_A) 提取码：32qa
+- 操作系统相关的书籍 [百度云下载链接](链接：https://pan.baidu.com/s/13f_Nm_3azjSAZTxHh0Nw_A) 提取码：32qa
  
 ## 数据库SQL实践
 **主要是介绍常见数据库的使用的扩展性能调优的实践工作**
-- 数据库原理书籍和总结文档[百度云下载链接](链接：https://pan.baidu.com/s/1FF2jxUHaC8HRqfs2ZCWS_Q) 提取码：xtc5
+- 数据库原理书籍和总结文档 [百度云下载链接](链接：https://pan.baidu.com/s/1FF2jxUHaC8HRqfs2ZCWS_Q) 提取码：xtc5
 
 
 ## 计算机网络实践
