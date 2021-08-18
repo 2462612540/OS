@@ -5,6 +5,7 @@
 ## java语言实践
 **主要是深度剖析java的JDK源码工作。做一些源码的验证性工作**
 - JAVA语言类相关的书籍 [百度云下载链接] (链接：https://pan.baidu.com/s/10c9asq4pYQ9YM3Br3ccmew) 提取码：nfjf
+- JAVA数据结构实现 [百度云下载链接] (链接：https://pan.baidu.com/s/1PnrZknCAhzy79JLYZaVHFQ ) 提取码：w5av
 
 ## java高并发编程
 **主要是的接扫java的中的并发的相关的知识，代码的实践和相关的文件**
@@ -33,9 +34,21 @@
 - 计算机网络书籍和总结文档 [百度云下载链接] (链接：https://pan.baidu.com/s/1sM0mezRpu9_5QIwwJOsFFg) 提取码：ptw3
 
 
+## java高级框架实践
+**主要是介绍常见java中常见高级框架的原理和使用**
+- Redis [百度云下载链接] (链接：https://pan.baidu.com/s/1-8t7RLpno7xoVsY6EJcnHw) 提取码：ev1v
+- Spring [百度云下载链接] (链接：https://pan.baidu.com/s/1O3W7CDLqEk7upozOJXOCEA) 提取码：o80n
+- Spring [百度云下载链接] (链接：https://pan.baidu.com/s/1WiSJEaUu6wIohWiUZiQzJw) 提取码：auec
+
+
 ## 设计模式原理实践
 **主要是介绍代码中设计模式的设计模式，有助于代码的编写**
 - 设计模式的书籍和总结 [百度云下载链接] (链接：https://pan.baidu.com/s/1IedenQoghZCmjhiDTjJeoQ) 提取码：vq15
+
+
+## 大数据与云计算原理与实践
+**主要是介绍代码中大数据与云计算原理与实践**
+- 大数据与云计算原理 [百度云下载链接] (链接：https://pan.baidu.com/s/11iDb7VgD7TmxUmtj5cFxFw) 提取码：5ya1
 
 
 ## 项目管理工具与实践
