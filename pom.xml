@@ -9,9 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>java语言基础</module>
         <module>java的并发实践</module>
-        <module>JVM优化实践</module>
         <module>大数据的算法实践</module>
         <module>操作系统Linux</module>
         <module>数据库实践</module>
@@ -21,8 +19,5 @@
         <module>java的框架实战</module>
         <module>软件管理工具</module>
         <module>项目架构管理</module>
-        <module>python基础原理</module>
     </modules>
-
-
 </project>
