@@ -8,16 +8,4 @@
     <artifactId>Senior_Architect</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <modules>
-        <module>java的并发实践</module>
-        <module>大数据的算法实践</module>
-        <module>操作系统Linux</module>
-        <module>数据库实践</module>
-        <module>计算机网络实践</module>
-        <module>设计模式实践</module>
-        <module>软件测试实践</module>
-        <module>java的框架实战</module>
-        <module>软件管理工具</module>
-        <module>项目架构管理</module>
-    </modules>
 </project>
