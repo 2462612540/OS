@@ -6,6 +6,7 @@ import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.time.temporal.ChronoUnit;
+import java.util.Arrays;
 import java.util.Locale;
 
 /**
@@ -37,7 +38,6 @@ public class LocalDate1 {
 
         LocalDate xmas = LocalDate.parse("24.12.2014", germanFormatter);
         System.out.println(xmas);   // 2014-12-24
-
 
     }
 

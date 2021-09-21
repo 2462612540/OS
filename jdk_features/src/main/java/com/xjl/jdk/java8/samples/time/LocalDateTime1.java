@@ -1,10 +1,8 @@
 package com.xjl.jdk.java8.samples.time;
 
-import java.time.DayOfWeek;
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.Month;
-import java.time.ZoneId;
+import org.junit.Test;
+
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
 import java.util.Date;
@@ -38,14 +36,30 @@ public class LocalDateTime1 {
         Date legacyDate = Date.from(instant);
         System.out.println(legacyDate);     // Wed Dec 31 23:59:59 CET 2014
 
-
         DateTimeFormatter formatter =
                 DateTimeFormatter
                         .ofPattern("MMM dd, yyyy - HH:mm");
 
         LocalDateTime parsed = LocalDateTime.parse("Nov 03, 2014 - 07:13", formatter);
         String string = parsed.format(formatter);
-        System.out.println(string);     // Nov 03, 2014 - 07:13
+        System.out.println(string);   // Nov 03, 2014 - 07:13
     }
 
+    @Test
+    public void test() {
+        Clock clock = Clock.systemDefaultZone();
+        long millis = clock.millis();
+        System.out.println(millis);
+
+        Instant instant = clock.instant();
+        Date legacyDate = Date.from(instant); // 老版本 java.util.Date
+        System.out.println(legacyDate);
+
+        System.out.println(ZoneId.getAvailableZoneIds());
+        ZoneId zone1 = ZoneId.of("Europe/Berlin");
+        ZoneId zone2 = ZoneId.of("Brazil/East");
+
+        System.out.println(zone1.getRules());
+        System.out.println(zone2.getRules());
+    }
 }

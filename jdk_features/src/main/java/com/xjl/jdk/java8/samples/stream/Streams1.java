@@ -24,20 +24,14 @@ public class Streams1 {
         stringCollection.add("ccc");
         stringCollection.add("bbb2");
         stringCollection.add("ddd1");
-
-
         // filtering
-
         stringCollection
                 .stream()
                 .filter((s) -> s.startsWith("a"))
                 .forEach(System.out::println);
 
         // "aaa2", "aaa1"
-
-
         // sorting
-
         stringCollection
                 .stream()
                 .sorted()
@@ -45,10 +39,7 @@ public class Streams1 {
                 .forEach(System.out::println);
 
         // "aaa1", "aaa2"
-
-
         // mapping
-
         stringCollection
                 .stream()
                 .map(String::toUpperCase)
@@ -56,10 +47,7 @@ public class Streams1 {
                 .forEach(System.out::println);
 
         // "DDD2", "DDD1", "CCC", "BBB3", "BBB2", "AAA2", "AAA1"
-
-
         // matching
-
         boolean anyStartsWithA = stringCollection
                 .stream()
                 .anyMatch((s) -> s.startsWith("a"));
@@ -78,9 +66,7 @@ public class Streams1 {
 
         System.out.println(noneStartsWithZ);      // true
 
-
         // counting
-
         long startsWithB = stringCollection
                 .stream()
                 .filter((s) -> s.startsWith("b"))
@@ -88,9 +74,7 @@ public class Streams1 {
 
         System.out.println(startsWithB);    // 3
 
-
         // reducing
-
         Optional<String> reduced =
                 stringCollection
                         .stream()
@@ -99,7 +83,6 @@ public class Streams1 {
 
         reduced.ifPresent(System.out::println);
         // "aaa1#aaa2#bbb1#bbb2#bbb3#ccc#ddd1#ddd2"
-
 
     }
 
